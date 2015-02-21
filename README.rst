@@ -33,4 +33,4 @@ Install voicemail packages.
 Example
 =======
 
-Put asterisk config files to */srv/salt/files/asterisk/* or any other asterisk directory under file_roots and list them in pillar. See *asterisk/pillar.example*.
+Put asterisk config files to */srv/salt/files/asterisk/* or any other *asterisk* directory under file_roots and list them in pillar. See *asterisk/pillar.example*.
