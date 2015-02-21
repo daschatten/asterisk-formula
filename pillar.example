@@ -1,0 +1,14 @@
+# Example pillar file for the asterisk salt formula
+
+asterisk:
+  # List all config file names which you want salt to deploy
+  # Those files must be placed in a asterisk directory under 
+  # a file_roots dir, e.g. /srv/salt/files/asterisk/
+  config_files:
+    - rtp.conf
+    - sip.conf
+    - extensions.conf
+    - voicemail.conf
+  # If state asterisk.prompt is used some languages need to be defined
+  prompt:
+    - de
