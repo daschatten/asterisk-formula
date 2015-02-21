@@ -7,12 +7,16 @@ See the full [Salt Formulas installation and usage instructions](http://docs.sal
 ## Available states
 
 * asterisk
+
   Installs the asterisk main packages and deploys given config files. 
+
 * asterisk.prompt
+
   Installs prompt packages for given languages.
+
 * asterisk.voicemail
   Install voicemail packages.
-
+  
 ## Example
 
-Put asterisk config files to /srv/salt/files/asterisk/ or any other asterisk directory under file_roots and list them in pillar. See asterisk/pillar.example.
+Put asterisk config files to _/srv/salt/files/asterisk/_ or any other asterisk directory under file_roots and list them in pillar. See _asterisk/pillar.example_.
