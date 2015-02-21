@@ -7,15 +7,13 @@ See the full [Salt Formulas installation and usage instructions](http://docs.sal
 ## Available states
 
 * asterisk
-
-  Installs the asterisk main packages and deploys given config files. 
+    Installs the asterisk main packages and deploys given config files. 
 
 * asterisk.prompt
-
-  Installs prompt packages for given languages.
+    Installs prompt packages for given languages.
 
 * asterisk.voicemail
-  Install voicemail packages.
+    Install voicemail packages.
   
 ## Example
 
